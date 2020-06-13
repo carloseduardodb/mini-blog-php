@@ -1,0 +1,15 @@
+{
+    "name": "carlos/mini_blog",
+    "description": "Mini-Blog-PHP",
+    "type": "project",
+    "license": "private",
+    "authors": [
+        {
+            "name": "Carlos Eduardo Dias Batista",
+            "email": "50811913+carloseduardodb@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    }
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24258d6b-02aa-4abb-b919-ccd4bfd0b57b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="87d215e5-03ab-41c2-87f5-2da9a2a81161" />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1dGuXaQIwu0NUu6aU1E6ltEaVHR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fsphp" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\xampp\htdocs\PHPStorm\mini_blog\app\view" />
+      <recent name="F:\xampp\htdocs\PHPStorm\mini_blog\app\template" />
+      <recent name="F:\xampp\htdocs\PHPStorm\mini_blog\public\theme\padrao_blog" />
+      <recent name="F:\xampp\htdocs\PHPStorm\mini_blog\public\theme" />
+      <recent name="F:\xampp\htdocs\PHPStorm\mini_blog\public\assets" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24258d6b-02aa-4abb-b919-ccd4bfd0b57b" name="Default Changelist" comment="" />
+      <created>1592063791084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592063791084</updated>
+      <workItem from="1592063792567" duration="11884000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="454" y="153" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592063830913">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="454" y="153" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592063830913" />
+    <state x="360" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1592072703847">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="360" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592072703847" />
+    <state x="434" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592071604974">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="434" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592071604974" />
+    <state x="443" y="273" width="473" height="284" key="ComposerInitDialogKey" timestamp="1592078757734">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="443" y="273" width="473" height="284" key="ComposerInitDialogKey/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592078757734" />
+    <state x="460" y="118" key="FileChooserDialogImpl" timestamp="1592066446604">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="460" y="118" key="FileChooserDialogImpl/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592066446604" />
+    <state x="446" y="161" key="NewPhpClassDialog" timestamp="1592071505578">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="446" y="161" key="NewPhpClassDialog/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592071505578" />
+    <state x="515" y="282" key="NewPhpFileDialog" timestamp="1592072086151">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="515" y="282" key="NewPhpFileDialog/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592072086151" />
+    <state x="171" y="0" key="SettingsEditor" timestamp="1592070771551">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="171" y="0" key="SettingsEditor/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592070771551" />
+  </component>
+</project>
