@@ -4,7 +4,11 @@ class Core
 {
     public function start($url_get)
     {
-        $action = 'index';
+        if (isset($urlGet['method'])) {
+            $action = $url_get['method'];
+        } else {
+            $action = 'index';
+        }
 
         if(isset($url_get['page'])){
             $controller = ucfirst($url_get['page'].'Controller');
@@ -16,7 +20,13 @@ class Core
             $controller = 'ErrorController';
         }
 
-        call_user_func_array(array(new $controller, $action), array());
+        if(isset($url_get['id']) && $url_get['id'] != null){
+            $id = $url_get['id'];
+        }else{
+            $id = null;
+        }
+
+        call_user_func_array(array(new $controller, $action), array('id' => $id));
 
     }
 }

@@ -1,28 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24258d6b-02aa-4abb-b919-ccd4bfd0b57b" name="Default Changelist" comment="" />
+    <list default="true" id="24258d6b-02aa-4abb-b919-ccd4bfd0b57b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controller/AboutController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controller/AdminController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controller/PostController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/model/Comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/view/struct_admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mini_blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mini_blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/Core.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/Core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/Posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/Posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/struct_about.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/struct_about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/struct_nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/struct_nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/struct_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/struct_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/struct_view_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/struct_view_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="87d215e5-03ab-41c2-87f5-2da9a2a81161" />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1dGuXaQIwu0NUu6aU1E6ltEaVHR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fsphp" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -43,7 +96,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592063791084</updated>
-      <workItem from="1592063792567" duration="11884000" />
+      <workItem from="1592063792567" duration="12764000" />
+      <workItem from="1592149746267" duration="4292000" />
+      <workItem from="1592173634532" duration="96000" />
+      <workItem from="1592233467844" duration="10410000" />
     </task>
     <servers />
   </component>
@@ -51,6 +107,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="272" y="21" key="#Composer" timestamp="1592149758005">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="272" y="21" key="#Composer/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592149758005" />
     <state x="454" y="153" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592063830913">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -59,29 +119,45 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="360" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592072703847" />
-    <state x="434" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592071604974">
+    <state x="434" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592235098219">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="434" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592071604974" />
+    <state x="434" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592235098219" />
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1592081853874">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592081853874" />
     <state x="443" y="273" width="473" height="284" key="ComposerInitDialogKey" timestamp="1592078757734">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="443" y="273" width="473" height="284" key="ComposerInitDialogKey/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592078757734" />
-    <state x="460" y="118" key="FileChooserDialogImpl" timestamp="1592066446604">
+    <state x="460" y="118" key="FileChooserDialogImpl" timestamp="1592173728471">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="460" y="118" key="FileChooserDialogImpl/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592066446604" />
-    <state x="446" y="161" key="NewPhpClassDialog" timestamp="1592071505578">
+    <state x="460" y="118" key="FileChooserDialogImpl/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592173728471" />
+    <state x="446" y="161" key="NewPhpClassDialog" timestamp="1592237914070">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="446" y="161" key="NewPhpClassDialog/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592071505578" />
-    <state x="515" y="282" key="NewPhpFileDialog" timestamp="1592072086151">
+    <state x="446" y="161" key="NewPhpClassDialog/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592237914070" />
+    <state x="515" y="282" key="NewPhpFileDialog" timestamp="1592242713827">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="515" y="282" key="NewPhpFileDialog/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592072086151" />
-    <state x="171" y="0" key="SettingsEditor" timestamp="1592070771551">
+    <state x="515" y="282" key="NewPhpFileDialog/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592242713827" />
+    <state x="171" y="0" key="SettingsEditor" timestamp="1592159149466">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="171" y="0" key="SettingsEditor/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592070771551" />
+    <state x="171" y="0" key="SettingsEditor/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592159149466" />
+    <state x="258" y="-8" width="1052" height="600" maximized="true" key="dock-window-1" timestamp="1592239553179">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="258" y="-8" width="1052" height="600" maximized="true" key="dock-window-1/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592239553179" />
+    <state x="1360" y="0" width="1376" height="744" key="dock-window-2" timestamp="1592239583908">
+      <screen x="1360" y="0" width="1366" height="768" />
+    </state>
+    <state x="1360" y="0" width="1376" height="744" key="dock-window-2/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592239583908" />
+    <state x="343" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1592158706955">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="343" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592158706955" />
   </component>
 </project>

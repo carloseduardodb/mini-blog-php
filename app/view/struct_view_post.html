@@ -1,0 +1,73 @@
+<div class="container">
+
+    <div class="row">
+
+        <div class="col" id="article">
+            <!---post-start--->
+            <h3 class="title-post">{{titulo}}</h3>
+            <hr>
+
+            <div id="text-content">
+
+                <p>&nbsp;&nbsp;
+                    {{conteudo}}
+                </p>
+
+            </div>
+            <!---post-end--->
+        </div>
+
+    </div>
+
+    <div class="row" style="margin-top: 50px">
+
+        <div class="col" style="background-color: #f2f2f2; border-radius: 10px;">
+
+
+            <!--start opinion--->
+
+            <div class="opinion" style="padding: 10px;">
+
+                <h2>Comentários (size)</h2>
+                <hr>
+                <form class="form-">
+                    <div class="form-group">
+                        <label>Qual é o seu nome?</label>
+                        <input type="text" class="form-control" placeholder="Digite seu nome:">
+                    </div>
+                    <div class="form-group">
+                        <label>Digite seu comentário:</label>
+                        <textarea style="padding: 10px; background: #fff;" type="text" class="form-control-plaintext" placeholder="Digite seu comentário"></textarea>
+                    </div>
+                    <div style="text-align: end;">
+                        <button type="submit" class="btn btn-success">Enviar</button>
+                    </div>
+                </form>
+                <br>
+
+                {% if comentarios == false %}
+                    <p>Nenhum comentário encontado para esta postagem!</p>
+                {% else %}
+
+                    {%for comentario in comentarios%}
+
+                    <div class="card">
+                        <h5 class="card-header">{{comentario.nome}}</h5>
+                        <div class="card-body">
+                            <h5 class="card-title">Titulo do comentario</h5>
+                            <p class="card-text">{{comentario.mensagem}}</p>
+                        </div>
+                    </div>
+                    <br>
+                    {%endfor%}
+                {% endif %}
+
+            </div>
+
+            <!--end opinion--->
+
+        </div>
+
+    </div>
+
+</div>

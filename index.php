@@ -6,8 +6,13 @@ require_once 'lib/database/Connection.php';
 
 require_once 'app/controller/HomeController.php';
 require_once 'app/controller/ErrorController.php';
+require_once 'app/controller/PostController.php';
+require_once 'app/controller/AboutController.php';
+require_once 'app/controller/AdminController.php';
+
 
 require_once 'app/model/Posts.php';
+require_once 'app/model/Comments.php';
 
 require_once 'vendor/autoload.php';
 
