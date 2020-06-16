@@ -4,7 +4,7 @@ class Core
 {
     public function start($url_get)
     {
-        if (isset($urlGet['method'])) {
+        if (isset($url_get['method'])) {
             $action = $url_get['method'];
         } else {
             $action = 'index';

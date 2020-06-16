@@ -6,7 +6,7 @@ class HomeController
         //echo 'Carlos';
         try
         {
-            $collect_posts = Posts::selecionaTodos();
+            $collect_posts = Posts::selectAll();
 
             $loader = new \Twig\Loader\FilesystemLoader('app/view');
             $twig = new \Twig\Environment($loader);

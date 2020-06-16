@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24258d6b-02aa-4abb-b919-ccd4bfd0b57b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controller/AboutController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controller/AdminController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controller/PostController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/model/Comments.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/struct_admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mini_blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mini_blog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/view/struct_admin_create_pub.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/view/struct_admin_update_pub.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controller/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/core/Core.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/Core.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/model/Posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/Posts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/struct_about.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/struct_about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/struct_nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/struct_nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/struct_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/struct_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/struct_view_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/struct_view_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/struct_admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/struct_admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/struct_view_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/struct_view_post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,12 +93,25 @@
       <workItem from="1592063792567" duration="12764000" />
       <workItem from="1592149746267" duration="4292000" />
       <workItem from="1592173634532" duration="96000" />
-      <workItem from="1592233467844" duration="10410000" />
+      <workItem from="1592233467844" duration="14937000" />
+      <workItem from="1592326214480" duration="5112000" />
     </task>
+    <task id="LOCAL-00001" summary="atualizando">
+      <created>1592245344699</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592245344699</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="atualizando" />
+    <option name="LAST_COMMIT_MESSAGE" value="atualizando" />
   </component>
   <component name="WindowStateProjectService">
     <state x="272" y="21" key="#Composer" timestamp="1592149758005">
@@ -123,10 +130,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="434" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592235098219" />
-    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1592081853874">
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1592245343252">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592081853874" />
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592245343252" />
     <state x="443" y="273" width="473" height="284" key="ComposerInitDialogKey" timestamp="1592078757734">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -147,10 +154,14 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="171" y="0" key="SettingsEditor/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592159149466" />
-    <state x="258" y="-8" width="1052" height="600" maximized="true" key="dock-window-1" timestamp="1592239553179">
+    <state x="272" y="92" key="Vcs.Push.Dialog.v2" timestamp="1592245348841">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="258" y="-8" width="1052" height="600" maximized="true" key="dock-window-1/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592239553179" />
+    <state x="272" y="92" key="Vcs.Push.Dialog.v2/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592245348841" />
+    <state x="1360" y="0" width="1048" height="617" key="dock-window-1" timestamp="1592329228204">
+      <screen x="1360" y="0" width="1366" height="768" />
+    </state>
+    <state x="1360" y="0" width="1048" height="617" key="dock-window-1/0.0.1360.728/1360.0.1366.768@0.0.1360.728" timestamp="1592329228204" />
     <state x="1360" y="0" width="1376" height="744" key="dock-window-2" timestamp="1592239583908">
       <screen x="1360" y="0" width="1366" height="768" />
     </state>

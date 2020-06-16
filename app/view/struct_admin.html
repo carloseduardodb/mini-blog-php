@@ -3,7 +3,7 @@
         <label style="text-align: center;"><h3>Painel Administrativo</h3></label>
     </div><br>
 
-    <button class="btn btn-success mb-2">Criar Publicação</button>
+    <button class="btn btn-success mb-2" onclick="location.href='http://localhost/PHPStorm/mini_blog/?page=admin&method=create'" >Criar Publicação</button>
 
     <table class="table">
         <thead class="thead-dark">
@@ -18,12 +18,14 @@
         </thead>
         <tbody>
 
+        {% for post in posts %}
         <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <th scope="row">{{post.id_postagem}}</th>
+            <td>{{post.titulo}}</td>
+            <td><button class="btn btn-warning" onclick="location.href='?page=admin&method=updateView&id={{post.id_postagem}}'">Alterar</button></td>
+            <td><button class="btn btn-danger" onclick="location.href='?page=admin&method=delete&id={{post.id_postagem}}'">Excluir</button></td>
         </tr>
+        {% endfor %}
 
         </tbody>
     </table>
