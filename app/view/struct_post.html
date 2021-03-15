@@ -10,10 +10,10 @@
             {% for post in posts %}
             <div class="card mb-3">
                 <div class="card-body">
-                    <h5 class="card-title"><a href="http://localhost/PHPStorm/mini_blog/?page=post&id={{post.id_postagem}}">{{post.titulo}}</a></h5>
+                    <h5 class="card-title"><a href="?page=post&id={{post.id_postagem}}">{{post.titulo}}</a></h5>
                     <p class="card-text">{{post.conteudo}}</p>
                     <div style="text-align: end">
-                        <a href="http://localhost/PHPStorm/mini_blog/?page=post&id={{post.id_postagem}}" class="btn btn-primary">Visitar</a>
+                        <a href="?page=post&id={{post.id_postagem}}" class="btn btn-primary">Visitar</a>
                     </div>
                 </div>
             </div>

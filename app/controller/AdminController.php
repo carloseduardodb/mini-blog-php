@@ -25,10 +25,10 @@ class AdminController{
         try {
             Posts::insert($_POST);
             echo '<script>alert("Publicação inserida com sucesso!");</script>';
-            echo '<script>location.href="http://localhost/PHPStorm/mini_blog/?page=admin&method=index"</script>';
+            echo '<script>location.href="?page=admin&method=index"</script>';
         }catch (Exception $e){
             echo '<script>alert("'.$e->getMessage().'");</script>';
-            echo '<script>location.href="http://localhost/PHPStorm/mini_blog/?page=admin&method=create"</script>';
+            echo '<script>location.href="?page=admin&method=create"</script>';
         }
     }
 
@@ -36,10 +36,10 @@ class AdminController{
         try{
             Posts::delete($_GET);
             echo '<script>alert("Publicação apagada com sucesso!");</script>';
-            echo '<script>location.href="http://localhost/PHPStorm/mini_blog/?page=admin&method=index"</script>';
+            echo '<script>location.href="?page=admin&method=index"</script>';
         }catch (Exception $e){
             echo '<script> alert("'.$e->getMessage().'"); </script>';
-            echo '<script>location.href="http://localhost/PHPStorm/mini_blog/?page=admin&method=index"</script>';
+            echo '<script>location.href="?page=admin&method=index"</script>';
         }
     }
 
@@ -62,10 +62,10 @@ class AdminController{
         try{
             Posts::update($_POST);
             echo '<script>alert("Publicação atualizada com sucesso!");</script>';
-            echo '<script>location.href="http://localhost/PHPStorm/mini_blog/?page=admin&method=index"</script>';
+            echo '<script>location.href="?page=admin&method=index"</script>';
         }catch (Exception $e){
             echo '<script> alert("'.$e->getMessage().'"); </script>';
-            echo '<script>location.href="http://localhost/PHPStorm/mini_blog/?page=admin&method=index"</script>';
+            echo '<script>location.href="?page=admin&method=index"</script>';
         }
     }
 }
